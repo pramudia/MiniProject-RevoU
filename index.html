@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css">
+
+
+    <!-- Favicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png"
+                class="logo" alt="">
+
+            <a href="#" class="logo-text">
+                <h1>
+                    <span class="box">Box</span>
+                    <span class="tv">TV</span>
+                    <span class="fist">&#x1F44A;</span>
+                </h1>
+            </a>
+        </div>
+        <div class="theme-switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="forLabelCheckBox">
+                <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+                <ion-icon name="moon-outline" class="moon"></ion-icon>
+                <div class="switcher"></div>
+            </label>
+        </div>
+        <ul>
+            <li class="nav-item">
+                <a href="#hero" class="nav-link" id="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tagprofile" class="nav-link" id="nav-link">Our Profile</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tagStars" class="nav-link" id="nav-link">Our stars</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tagMessage" class="nav-link" id="nav-link">Message Us</a>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="hideShowMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="intro-text">
+            <h1>
+                <span class="hear">Kamu Dapat Melihat Jabs</span>
+            </h1>
+            <h3>
+                <span class="connecting">Dari Seluruh Dunia</span>
+            </h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus reiciendis sint repellendus tempora
+                suscipit dicta.
+            </p>
+            <a href="#" class="btn red">Mulai Menonton</a>
+            <a href="#" class="btn blue">Hubungi Kami</a>
+        </div>
+        <div class="i-frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sUmM_PFpsvQ"
+                title="YouTube video player" frameborder="10"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <div class="stand-1"></div>
+            <div class="stand-2"></div>
+        </div>
+    </section>
+
+    <div id="tagprofile" style="margin-bottom: 100px;"></div>
+    <section class="profile" id="profile">
+        <h1 id="about">Our Profile</h1>
+        <div class="conatinerProfile" id="conatinerProfile">
+            <div class="image-profile">
+                <img src="assets/images/profile2.jpg" alt="mike Tyson" />
+            </div>
+            <div class="text-profile">
+                <div class="description-box">
+                    <p>
+                        Boxing adalah olahraga bertinju yang menantang dan penuh dengan aksi di mana dua petinju saling
+                        bertarung dalam ring dengan tujuan untuk mencetak poin atau mengalahkan lawan dengan KO
+                        (Knockout).
+                        Dalam pertarungan, petinju menggunakan kombinasi teknik tinju seperti jabs, hooks, uppercuts,
+                        dan
+                        crosses untuk melawan lawannya.
+                        Boxing juga merupakan olahraga yang populer di seluruh dunia, diikuti oleh jutaan orang dari
+                        berbagai usia dan level keahlian. Apakah Anda seorang pemula atau petinju berpengalaman, boxing
+                        adalah olahraga yang menantang dan menyenangkan untuk diikuti.
+                    </p>
+                </div>
+                <div class="description-tv">
+                    <p>
+                        Saksikan aksi tinju yang menegangkan dan penuh aksi dengan layanan TV kami yang khusus untuk
+                        boxing!
+                        Nikmati pertarungan langsung, highlight pertarungan terbaik, program dokumenter, dan
+                        konten-konten
+                        boxing eksklusif lainnya dari seluruh dunia dengan kualitas gambar dan suara yang tak
+                        tertandingi.
+                        Dengan paket berlangganan yang fleksibel, Anda dapat menyesuaikan kebutuhan Anda dan menikmati
+                        pengalaman menonton boxing yang lebih intens dan menyenangkan. Jangan lewatkan momen boxing
+                        terbaik
+                        di layar Anda dan bergabunglah dengan layanan TV boxing kami sekarang!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="tagStars" style="margin-bottom: 100px;"></div>
+    <section class="ourStars" id="ourStars">
+
+        <h1 id="legenda">Legenda Boxing</h1>
+        <div class="card">
+            <div class="cards">
+                <img src="assets/images/ali.jpg" alt="Muhammad Ali" class="imgCard" />
+                <div class="containerCards">
+                    <h4><b>Muhammad Ali</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="assets/images/mike.jpg" alt="Mike Tyson" class="imgCard" />
+                <div class="containerCards">
+                    <h4><b>Mike Tyson</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="assets/images/joe-frazir.jpg" alt="Joe Frazir" class="imgCard" />
+                <div class="containerCards">
+                    <h4><b>Joe Frazir</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="assets/images/joe-louis.jpg" alt="Joe Louis" class="imgCard" />
+                <div class="containerCards">
+                    <h4><b>Joe Louis</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="assets/images/rocky-marciano.jpg" alt=" Rocky Marciano" class="imgCard" />
+                <div class="containerCards">
+                    <h4><b>Rocky Marcino</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="tagMessage" style="margin-bottom: 100px;"></div>
+    <section class="message" id="message">
+        <h1>Hubungi Kami</h1>
+        <div class="formMessage" id="formMessage">
+            <form action="" class="form" name="message-form" onsubmit="return validateForm()">
+                <div class="input-group">
+                    <label class="label">Nama</label> : &ThinSpace;
+                    <div class="textbox">
+                        <input type="text" name="full-name" placeholder="Nama">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label class="label">Tanggal Lahir</label> : &ThinSpace;
+                    <div class="textbox">
+                        <input type="date" name="tgl" id="">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label class="label">Jenis Kelamin</label> : &ThinSpace;
+                    <div class="textbox">
+                        <div>
+                            <input type="radio" name="jenis-kelamin" id="" value="Laki-laki">
+                            <label class="label" for="">Laki-laki</label>
+                        </div>
+                        <div class="pr">
+                            <input type="radio" name="jenis-kelamin" id="" value="Perempuan">
+                            <label class="label" for="">Perempuan</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label class="label">Pesan</label> : &ThinSpace;
+                    <div class="textbox">
+                        <textarea name="pesan-form" id="" cols="30" rows="3" placeholder="Pesan"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="hasil">
+                <h2 id="pesan"></h2>
+                <p id="nama-hasil"></p>
+                <p id="tgl-hasil"></p>
+                <p id="jk-hasil"></p>
+                <p id="pesan-hasil"></p>
+            </div>
+        </div>
+    </section>
+
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/up.png" alt="up-arrow" class="socicon up-arrow">
+    </i>
+
+    <footer>
+        &copy;2023. Pramudia Pangestu
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Web page script -->
+    <script>
+        function validateForm() {
+            var nama = document.forms["message-form"]["full-name"].value;
+            var tgl = document.forms["message-form"]["tgl"].value;
+            var jk = document.forms["message-form"]["jenis-kelamin"].value;
+            var pesan = document.forms["message-form"]["pesan-form"].value;
+
+            if (nama == "") {
+                alert("Nama tidak boleh kosong");
+                return false;
+            } else if (tgl == "") {
+                alert("Tanggal lahir tidak boleh kosong");
+                return false;
+            } else if (jk == "") {
+                alert("Jenis kelamin tidak boleh kosong");
+                return false;
+            } else if (pesan == "") {
+                alert("Pesan tidak boleh kosong");
+                return false;
+            } else {
+                document.getElementById("pesan").innerHTML = "Terima Kasih Telah Mengirim Pesan";
+                document.getElementById("nama-hasil").innerHTML = "Nama : " + nama;
+                document.getElementById("tgl-hasil").innerHTML = "Tanggal Lahir : " + tgl;
+                document.getElementById("jk-hasil").innerHTML = "Jenis Kelamin : " + jk;
+                document.getElementById("pesan-hasil").innerHTML = "Pesan : " + pesan;
+                return false;
+            }
+        }
+
+        const scrollUp = document.querySelector('#scroll-up');
+        const checkbox = document.querySelector("#checkbox");
+
+        scrollUp.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+
+
+        checkbox.addEventListener("change", () => {
+            // Toggle website theme
+            document.body.classList.toggle("dark");
+        });
+
+
+        function hideShowMenu() {
+
+            const ul = document.querySelector("ul");
+            if (ul.style.display === "block" || ul.style.maxWidth === "768px") {
+                ul.style.display = "none";
+            } else {
+                ul.style.display = "block";
+            }
+        }
+
+    </script>
+
+    <!-- Ion icons CDN -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+</body>
+
+</html>
